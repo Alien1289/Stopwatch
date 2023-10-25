@@ -8,6 +8,7 @@ body{
     background-size: cover;
 
 }
+
 #stop-watch{
     box-sizing: border-box;
     width: 40vw;
@@ -28,6 +29,8 @@ body{
     box-sizing: border-box;
     height: 30%;
     width: 100%;
+    /* border: blue 2px solid; */
+
 }
 button{
     box-sizing: border-box;
@@ -53,3 +56,4 @@ button:active{
     #stop-watch{
         width: 100vw;
     }
+}
