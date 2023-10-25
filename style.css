@@ -10,11 +10,12 @@ body{
 }
 #stop-watch{
     box-sizing: border-box;
-    width: 500px;
+    width: 40vw;
     height: 80vh;
     /* border: red solid 2px; */
     margin: auto;
 }
+
 #time-display{
     box-sizing: border-box;
     height: 70%;
@@ -48,3 +49,7 @@ button:active{
     background-color: #AFEEEE;
 }
 
+@media screen and (max-width: 768px) {
+    #stop-watch{
+        width: 100vw;
+    }
