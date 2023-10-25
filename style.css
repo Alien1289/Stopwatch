@@ -56,4 +56,12 @@ button:active{
     #stop-watch{
         width: 100vw;
     }
+    button:hover{
+    background-color: #00CED1;
+    font-size: 200%;
+    }
+    button:active{
+    background-color: #AFEEEE;
+
+    }
 }
